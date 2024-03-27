@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(to right,#75a6dd, #8875df );
+}
+
+#value{
+    display: flex;
+   justify-content: center;
+   padding: 5rem;
+   font-size: 2rem;
+
+}
+#generator{
+   display: flex;
+   justify-content: center;
+   
+}
+input, button{
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#button{
+    font-size: 2rem;
+    background-color:#8f5bba ;
+    border-radius: 5rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+#button:hover{
+    background-color:#603781;
+}
